@@ -1,0 +1,42 @@
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ==== Virtual environments ====
+venv/
+env/
+.venv/
+.env/
+
+# ==== Pipeline outputs (generated locally, not tracked) ====
+outputs/CSV/
+outputs/PLOTS/
+outputs/FEATURES/
+outputs/*.xlsx
+
+# ==== Real data — NEVER commit ====
+data/*.csv
+!data/sample_data.csv
+
+# ==== Jupyter ====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==== OS files ====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==== IDEs ====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==== Logs ====
+*.log

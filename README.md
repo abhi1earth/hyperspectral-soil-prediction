@@ -2,7 +2,7 @@
 
 A complete end-to-end Python pipeline for predicting soil properties from hyperspectral imagery using spectral preprocessing, chemometric feature selection, and machine learning regression models.
 
-\---
+\
 
 ## Pipeline Overview
 
@@ -40,7 +40,7 @@ Raw Hyperspectral Spectra (N samples × B bands)
 └─────────────────────────────────────────────┘
 ```
 
-\---
+\
 
 ## Methods
 
@@ -80,7 +80,7 @@ All three use 5-fold CV RMSECV on the training set only — zero test leakage.
 
 R² · RMSE · MAE · RPD · RPIQ · MBE computed for both train and test sets across all model–feature combinations.
 
-\---
+\
 
 ## Repository Structure
 
@@ -101,7 +101,7 @@ hyperspectral-soil-prediction/
     └── FEATURES/                ← Selected wavelength indices per method
 ```
 
-\---
+\
 
 ## Quickstart
 
@@ -139,7 +139,7 @@ python pipeline.py
 
 All outputs are written to the `outputs/` directory.
 
-\---
+\
 
 ## Using Your Own Data
 
@@ -156,7 +156,7 @@ S001,       0.213, 0.198, 0.245, ..., 0.189,  3.12
 
 Then update `INPUT\\\_FILE` in `pipeline.py` and run.
 
-\---
+\
 
 ## Outputs
 
@@ -191,7 +191,7 @@ After a successful run, the `outputs/` folder contains:
 
 * `Pipeline\\\_Comparison.xlsx` — 3 sheets: Raw+NoFS | Prep+NoFS | Prep+FS
 
-\---
+\
 
 ## Comparison Matrix (example with synthetic data)
 
@@ -203,7 +203,7 @@ Results vary by dataset. The pipeline is designed to be compared across three sc
 |**S2**|ALS+UV+SG2+SNV · No feature selection|
 |**S3**|ALS+UV+SG2+SNV + CARS / SPA / SA|
 
-\---
+\
 
 ## Citation
 
@@ -216,7 +216,7 @@ Chakraborty, A. (2026). Hyperspectral Soil Property Prediction Pipeline.
 GitHub. https://github.com/abhi1earth/hyperspectral-soil-prediction
 ```
 
-\---
+\
 
 ## Author
 
@@ -224,7 +224,7 @@ GitHub. https://github.com/abhi1earth/hyperspectral-soil-prediction
 MSc Geography (Remote Sensing \& GIS) · CRAN package author ([VegSpecIndex](https://cran.r-project.org/package=VegSpecIndex)) 
 · GitHub: [@abhi1earth](https://github.com/abhi1earth)
 
-\---
+\
 
 ## License
 

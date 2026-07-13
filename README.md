@@ -222,7 +222,7 @@ GitHub. https://github.com/abhi1earth/hyperspectral-soil-prediction
 
 **Abhishek Chakraborty**
 MSc Geography (Remote Sensing \& GIS) · CRAN package author ([VegSpecIndex](https://cran.r-project.org/package=VegSpecIndex)) 
-· GitHub: [@abhi](https://github.com/abhi1earth)
+· GitHub: [@abhi1earth](https://github.com/abhi1earth)
 
 \---
 

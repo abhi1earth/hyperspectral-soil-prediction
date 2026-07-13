@@ -220,3 +220,7 @@ GitHub. https://github.com/abhi1earth/hyperspectral-soil-prediction
 
 MIT License — see [LICENSE](LICENSE) for details.
 
+
+## Acknowledgments
+
+This pipeline was developed independently through iterative trial-and-error refinement, under the overall research supervision of Dr. Avijit Ghosh, Scientist, GSM Division, ICAR-Indian Grassland and Fodder Research Institute (ICAR-IGFRI). Grateful for the guidance and support throughout this project.
